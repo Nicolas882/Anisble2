@@ -9,4 +9,4 @@
     redis_databases: 1
     
   roles:
-- nosqlserver
+   - nosqlserver
