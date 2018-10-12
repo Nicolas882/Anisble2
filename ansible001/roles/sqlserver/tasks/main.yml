@@ -20,4 +20,4 @@
      - python-mysqldb
           
 - name: Activar servicio Mysql
-service: name=mysql state=started
+  service: name=mysql state=started
