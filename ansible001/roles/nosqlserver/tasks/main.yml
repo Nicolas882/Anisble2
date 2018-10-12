@@ -11,4 +11,4 @@
 - name: Configuración del Servidor redis
   template: src=redis.conf.j2 dest=/etc/redis/redis.conf owner=root group=root mode=0644
   sudo: true
-notify: Redis Restart
+  notify: Redis Restart
