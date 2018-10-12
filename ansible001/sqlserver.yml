@@ -3,4 +3,4 @@
   hosts: sql
   remote_user: root
   roles:
-- sqlserver
+   - sqlserver
